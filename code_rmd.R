@@ -1,12 +1,13 @@
-librarian::shelf(here, ggridges,
-                 tidyverse, magrittr, 
-                 stringr, knitr, kableExtra, 
-                 scales, 
+librarian::shelf(here, tidyverse, magrittr, stringr, scales, 
+                 ggridges, 
+                 knitr, kableExtra, 
                  tidyverse/lubridate,  
                  thomasp85/patchwork,
                  janitor, 
-                 rmdformats, rstudio/fontawesome, 
+                 rmdformats, 
+                 rstudio/fontawesome, 
                  #update_all = TRUE, 
+                 cran_repo = 'https://cran.r-project.org',
                  quiet = TRUE)
 
 

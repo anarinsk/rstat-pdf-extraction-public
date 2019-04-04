@@ -76,7 +76,7 @@ df_sf %>%
 
 ### Gen map from Google 
 
-my_key <- 'AIzaSyA-8v4SGqGyLAGxBOK8-hhWvUe_ove00-w'
+my_key <- 'Your Google-map API'
 register_google(key = my_key)
 map <- get_map(location='south korea', zoom=7, maptype='roadmap', color='bw')
 ggmap(map)  + labs(x = NULL, y = NULL) # Check size 
